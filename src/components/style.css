@@ -22,6 +22,7 @@ body{
 .cart {
     display: flex;
     align-items: center;
+    color: white;
 }
 .navBar{
     background-color: black;
@@ -46,6 +47,11 @@ body{
     border-bottom: 1px solid gray;
     padding-bottom: 1rem;
 }
+@media only screen and (max-width: 800px) {
+    .topFooter {
+        flex-direction: column;
+    }
+  }
 .leftside{
     width: 20rem;
 }
@@ -57,9 +63,9 @@ body{
 
 .subInput{
     background-color: white;
+    width: 100%;
 }
 footer{
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -82,11 +88,39 @@ footer{
 }
 .ref{
     display: flex;
-    align-items: center;
-}
-.ref{
-    display: flex;
     justify-content: center;
     padding: 1rem;
     background-color: black;
+    align-items: center;
 }
+
+
+
+.mainPage{
+    padding: 2rem;
+    background-color: #363535;
+    margin: 2rem 0rem;
+}
+.title{
+    color: white;
+    font-family: system-ui;
+    margin-bottom: 2rem;
+}
+
+.cartAction{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .css-1ri6ub7-MuiPaper-root-MuiCard-root{
+        width: fit-content !important;
+        background: #626262 !important;
+        color: white !important;
+        padding: 0.6rem;
+    
+    }
+    .CardContent{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }

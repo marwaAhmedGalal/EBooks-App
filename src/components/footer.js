@@ -32,9 +32,6 @@ const Footer = () => {
                     <div className="subscribe">
                         <TextField
                             className="subInput"
-
-                            multiline
-                            maxRows={4}
                         />
                         <Button variant="contained" color="success">
                             subscribe
