@@ -1,12 +1,92 @@
-.mainPage{
+
+body{
+    background-color: black;
+}
+.Language {
     display: flex;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem;
-    gap: 1rem;
+    justify-content: flex-end;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1rem;
+    padding: 0em 2em;
+    color: white;
 }
 
-.ListStyle{
+.Logo {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding: 0em 2em;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+.navBar{
+    background-color: black;
+}
+.css-19r6kue-MuiContainer-root{
+    background-color: #464646;
+}
+.nav{
+    padding: 1em;
+}
+.subscribe{
+    display: flex;
+    height: 3.5rem;
+}
+.subInput{
+    width: 25rem;
+}
+.topFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+}
+.leftside{
+    width: 20rem;
+}
+
+.bottomFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subInput{
+    background-color: white;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #161616;
+    text-align: center;
+}
+.footer{
+    padding: 2rem;
+}
+
+.Logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.ref{
+    display: flex;
+    align-items: center;
+}
+.ref{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
 }
